@@ -1,0 +1,30 @@
+2016-02-18 10:43:05 [scrapy] INFO: Scrapy 1.0.4 started (bot: weather)
+2016-02-18 10:43:05 [scrapy] INFO: Optional features available: ssl, http11
+2016-02-18 10:43:05 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'weather.spiders', 'FEED_URI': 'wea.json', 'SPIDER_MODULES': ['weather.spiders'], 'BOT_NAME': 'weather', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'wea.log', 'DOWNLOAD_DELAY': 1}
+2016-02-18 10:43:05 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-02-18 10:43:06 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-02-18 10:43:06 [twisted] CRITICAL: 
+2016-02-18 10:56:25 [scrapy] INFO: Scrapy 1.0.4 started (bot: weather)
+2016-02-18 10:56:25 [scrapy] INFO: Optional features available: ssl, http11
+2016-02-18 10:56:25 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'weather.spiders', 'FEED_URI': 'wea.json', 'SPIDER_MODULES': ['weather.spiders'], 'BOT_NAME': 'weather', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'wea.log', 'DOWNLOAD_DELAY': 1}
+2016-02-18 10:56:26 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-02-18 10:56:26 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-02-18 10:56:26 [twisted] CRITICAL: 
+2016-02-18 11:08:24 [scrapy] INFO: Scrapy 1.0.4 started (bot: weather)
+2016-02-18 11:08:24 [scrapy] INFO: Optional features available: ssl, http11
+2016-02-18 11:08:24 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'weather.spiders', 'FEED_URI': 'wea.json', 'SPIDER_MODULES': ['weather.spiders'], 'BOT_NAME': 'weather', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'wea.log', 'DOWNLOAD_DELAY': 1}
+2016-02-18 11:08:25 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-02-18 11:08:25 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-02-18 11:08:25 [twisted] CRITICAL: 
+2016-02-18 11:21:46 [scrapy] INFO: Scrapy 1.0.4 started (bot: weather)
+2016-02-18 11:21:46 [scrapy] INFO: Optional features available: ssl, http11
+2016-02-18 11:21:46 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'weather.spiders', 'FEED_URI': 'wea.json', 'SPIDER_MODULES': ['weather.spiders'], 'BOT_NAME': 'weather', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'wea.log', 'DOWNLOAD_DELAY': 1}
+2016-02-18 11:21:46 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-02-18 11:21:46 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-02-18 11:21:46 [twisted] CRITICAL: 
+2016-02-18 11:33:07 [scrapy] INFO: Scrapy 1.0.4 started (bot: weather)
+2016-02-18 11:33:07 [scrapy] INFO: Optional features available: ssl, http11
+2016-02-18 11:33:07 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'weather.spiders', 'FEED_URI': 'wea.json', 'SPIDER_MODULES': ['weather.spiders'], 'BOT_NAME': 'weather', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'wea.log', 'DOWNLOAD_DELAY': 1}
+2016-02-18 11:33:08 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-02-18 11:33:08 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-02-18 11:33:08 [twisted] CRITICAL: 

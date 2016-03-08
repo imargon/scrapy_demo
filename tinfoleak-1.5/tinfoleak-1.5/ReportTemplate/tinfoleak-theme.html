@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
+<link href="style.css" rel='stylesheet' type='text/css'>
+<title>Tinfoleak Report</title>
+
+</head>
+
+<body>
+<!--cabecera-->
+    <div class="header">
+		<p class="datos_personales"><a href="https://twitter.com/VAguileraDiaz" target="_blank">@VAguileraDiaz</a> <a href="mailto:vaguilera@isecauditors.com" target="_blank">vaguilera@isecauditors.com</a> <a href="http://www.isecauditors.com" target="_blank">Internet Security Auditors</a></p>
+	</div>
+    <!--#end cabecera-->
+    <!--contenido-->
+<a id="top" name="top"></a>
+<div id="container">    
+    <div id="content">
+    	<div id="title">
+        	<h4>{{ program }} {{ version }}</h4>
+        </div>
+    	<div id="foto_perfil">
+        	<a href="{{ profile_image }}" target="_blank"><img class="perfil" src="{{ profile_image.replace('.jpg', '_400x400.jpg') }}" target="_blank" alt="usuario" width="100" height="100"></a><br />
+            <h1>{{ user_name }}</h1>
+             <p class="descripcion">{{ description }}</span></p>
+        </div><!--#end foto_perfil-->
+        
+        <div id="datos_usuario">
+            <div class="datos1">
+              <p>Screen Name: <a href="http://www.twitter.com/{{ screen_name }}" target="_blank">{{ screen_name }}</a></p>
+              <p>Account Created at: <span>{{ date }}</span></p>
+              <p>Followers: <span>{{ followers }}</span></p>
+              <p>Following: <span>{{ friends }}</span></p>
+              <p>Tweets: <span>{{ tweets }} ({{ tweets_average }} tweets/day)</span></p>
+            </div>
+            
+            <div class="datos2">
+              <p>Twitter ID: <span>{{ twitter_id }}</span></p>
+              <p>URL: <a href="{{ url }}" target="_blank">{{ url }}</a></p>
+              <p>Location: <span>{{ location }}</span></p>
+              <p>Time Zone: <span>{{ timezone }}</span></p>
+              <p>Geo enabled: <span>{{ geo }}</span></p>
+            </div>
+      </div>
+    </div><!--#end content-->
+    
+    <div class="content2">
+            <div class="hero">
+				<div class="one_third"><h3><a href="#client_apps">Client Apps</a></h3></div>
+                
+                <div class="one_third_short"><h3><a href="#hashtags">Hashtags</a></h3></div>
+                
+                <div class="one_third_last"><h3><a href="#user_mentions">User Mentions</a></h3></div>
+                
+                <div class="one_third_short"><h3><a href="#tweets">Tweets</a></h3></div>
+                
+                <div class="one_third_short" ><h3><a href="#metadata">Metadata</a></h3></div>
+
+                <div class="one_third_short" ><h3><a href="#media">Media</a></h3></div>
+
+                <div class="one_third_last wow fadeInUp animated" ><h3><a href="#geo">Geolocation</a></h3></div>
+                
+            </div><!-- #End hero -->
+		 </div><!-- #End content2 -->
+        
+        <div id="datos">
+            <div id="client_apps">
+                <a id="client_apps" name="client_apps"></a>
+                <h3>Client Applications</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p>Source</p></td>
+                      <td><p>Uses</p></td>
+                      <td><p>Percentage</p></td>
+                      <td><p>First Use</p></td>
+                      <td><p>Last Use</p></td>
+                    </tr>
+                    {% for info in source %}    
+                    <tr>
+                      <td><p class="table_results">{{ info[0] }}</p></td>
+                      <td><p class="table_results">{{ sources_count[info[0]] }}</p></td>
+                      <td><p class="table_results">{{ sources_percent[info[0]] }} %</p></td>
+                      <td><p class="table_results">{{ sources_firstdate[info[0]].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ sources_lastdate[info[0]].strftime('%m/%d/%Y') }}</p></td>
+                    </tr>
+                    {% endfor %}
+                                  </table>
+			<p class="results">Total: {{ sources_results }} results.</p>
+            </div><!--#end client_apps-->
+            <!--hashtags table-->
+             <div id="client_apps">
+                <a id="hashtags" name="hashtags"></a>
+                <h3>Hashtags</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+              <h2>Hashtags in Tweets</h2>
+                <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p>Date</p></td>
+                      <td><p>Time</p></td>
+                      <td><p>RT's</p></td>
+                      <td><p>FAV's</p></td>
+                      <td><p>Tweet</p></td>
+                      <td><p>#Hashtags</p></td>
+                    </tr>
+                    {% for info in hashtags_tweet %}  
+                    <tr>
+                      <td><p class="table_results">{{ info[0] }}</p></td>
+                      <td><p class="table_results">{{ info[1] }}</p></td>
+                      <td><p class="table_results">{{ info[2] }}</p></td>
+                      <td><p class="table_results">{{ info[3] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/{{ screen_name }}/status/{{ info[5] }}" target="_blank">view</a></p></td>
+		      <td><p class="table_results">{{ info[4] }}</p></td>
+                    </tr>
+		    {% endfor %}
+                      </table>
+			<p class="results">Total: {{ hashtags_results1 }} results.</p>
+              <h2>Hashtag Detail</h2>            
+            <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td class="table_hashtags"><p>Date (since)</p></td>
+                      <td class="table_hashtags"><p>Date (until)</p></td>
+                      <td class="table_hashtags"><p>RT's</p></td>
+                      <td class="table_hashtags"><p>FAV's</p></td>
+                      <td class="table_hashtags"><p>Count</p></td>
+                      <td class="table_hashtags"><p>#Hashtag</p></td>
+                    </tr>
+                    {% for info in hashtag %}  
+                    <tr>
+                      <td><p class="table_results">{{ hashtags_firstdate[info.upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ hashtags_lastdate[info.upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ hashtags_rt[info.upper()] }}</p></td>
+                      <td><p class="table_results">{{ hashtags_fv[info.upper()] }}</p></td>
+                      <td><p class="table_results_days">{{ hashtags_count[info.upper()] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/hashtag/{{ info }}" target="_blank">#{{ info }}</a></p></td>
+                    </tr>
+                    {% endfor %}  
+                                  </table>
+			<p class="results">Total: {{ hashtags_results2 }} results.</p>
+              <h2>Top Hashtags</h2>
+              <table class="client_app" width="768" border="0">
+		      <tr>
+                      <td class="table_hashtags"><p>Date (since)</p></td>
+                      <td class="table_hashtags"><p>Date (until)</p></td>
+                      <td class="table_hashtags"><p>RT's</p></td>
+                      <td class="table_hashtags"><p>FAV's</p></td>
+                      <td class="table_hashtags"><p>Count</p></td>
+                      <td class="table_hashtags"><p>#Hashtag</p></td>
+                    </tr>
+                    {% for info in hashtags_top %}  
+                    <tr>
+                      <td><p class="table_results">{{ hashtags_firstdate[info[0].upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ hashtags_lastdate[info[0].upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ hashtags_rt[info[0].upper()] }}</p></td>
+                      <td><p class="table_results">{{ hashtags_fv[info[0].upper()] }}</p></td>
+                      <td><p class="table_results_days">{{ hashtags_count[info[0].upper()] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/hashtag/{{ info[0] }}" target="_blank">#{{ info[0] }}</a></p></td>
+                    </tr>
+                    {% endfor %}  
+                                  </table>
+			<p class="results">Total: {{ hashtags_results3 }} results.</p>
+
+            </div><!--#end hashtags table--> 
+            <!--mentions table-->
+            <div id="client_apps">
+                <a id="user_mentions" name="user_mentions"></a>
+                <h3>User Mentions</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+              <h2>User Mentions in Tweets</h2>
+                <table class="client_app" width="830" border="0">
+                    <tr>
+                      <td><p>Date</p></td>
+                      <td><p>Time</p></td>
+                      <td><p>RT's</p></td>
+                      <td><p>FAV's</p></td>
+                      <td><p>Tweet</p></td>
+                      <td><p>User Mentions</p></td>
+                    </tr>
+                    {% for info in mentions_tweet %}  
+                    <tr>
+                      <td><p class="table_results">{{ info[0] }}</p></td>
+                      <td><p class="table_results">{{ info[1] }}</p></td>
+                      <td><p class="table_results">{{ info[2] }}</p></td>
+                      <td><p class="table_results">{{ info[3] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/{{ screen_name }}/status/{{ info[5] }}" target="_blank">view</a></p></td>
+                      <td><p class="table_results">{{ info[4] }}</p></td>
+                    </tr>
+                    {% endfor %}                        
+                                  </table>
+			<p class="results">Total: {{ mentions_results1 }} results.</p>
+              <h2>User Mention Detail</h2>                        
+             <table class="client_app" width="830" border="0">
+                    <tr>
+                      <td class="table_hashtags"><p>Date (since)</p></td>
+                      <td class="table_hashtags"><p>Date (until)</p></td>
+                      <td class="table_hashtags"><p>RT's</p></td>
+                      <td class="table_hashtags"><p>FAV's</p></td>
+                      <td class="table_hashtags"><p>Count</p></td>
+                      <td class="table_hashtags"><p>User Mention</p></td>
+                    </tr>
+                    {% for info in mention %}  
+                    <tr>
+                      <td><p class="table_results">{{ mentions_firstdate[info.upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ mentions_lastdate[info.upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ mentions_rt[info.upper()] }}</p></td>
+                      <td><p class="table_results">{{ mentions_fv[info.upper()] }}</p></td>
+                      <td><p class="table_results_days">{{ mentions_count[info.upper()] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/{{ info }}" target="_blank">@{{ info }}</a></p></td>
+                    </tr>
+		   {% endfor %}                      
+                                  </table>
+			<p class="results">Total: {{ mentions_results2 }} results.</p> 
+              <h2>Top Mentions</h2>
+             <table class="client_app" width="830" border="0">
+                    <tr>
+                      <td class="table_hashtags"><p>Date (since)</p></td>
+                      <td class="table_hashtags"><p>Date (until)</p></td>
+                      <td class="table_hashtags"><p>RT's</p></td>
+                      <td class="table_hashtags"><p>FAV's</p></td>
+                      <td class="table_hashtags"><p>Count</p></td>
+                      <td class="table_hashtags"><p>User Mention</p></td>
+                    </tr>
+                    {% for info in mentions_top %}  
+                    <tr>
+                      <td><p class="table_results">{{ mentions_firstdate[info[0].upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ mentions_lastdate[info[0].upper()].strftime('%m/%d/%Y') }}</p></td>
+                      <td><p class="table_results">{{ mentions_rt[info[0].upper()] }}</p></td>
+                      <td><p class="table_results">{{ mentions_fv[info[0].upper()] }}</p></td>
+                      <td><p class="table_results_days">{{ mentions_count[info[0].upper()] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/{{ info[0] }}" target="_blank">@{{ info[0] }}</a></p></td>
+                    </tr>
+		   {% endfor %}
+                      
+                                  </table>
+			<p class="results">Total: {{ mentions_results3 }} results.</p> 
+            </div><!--#end mentions table--> 
+            <!--tweets table-->            
+            <div id="client_apps">
+            <a id="tweets" name="tweets"></a>
+                <h3>Tweets</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p>Date</p></td>
+                      <td><p>Time</p></td>
+                      <td><p>Tweet (filter: '{{ find }}')</p></td>
+                    </tr>
+                    {% for info in tweet_find %}   
+                    <tr>
+                      <td><p class="table_results">{{ info[1] }}</p></td>
+                      <td><p class="table_results">{{ info[2] }}</p></td>
+                      <td><p class="table_results"><a href="https://twitter.com/{{ screen_name }}/status/{{ info[3] }}" target="_blank">{{ info[0] }}</a></p></td>
+                    </tr>
+                    {% endfor %}  
+                                  </table>
+			<p class="results">Total: 3 results.</p>
+            </div><!--#end tweets table--> 
+            
+            <!--images table-->            
+            <div id="client_apps">
+                <a id="metadata" name="media"></a>
+                <h3>METADATA </h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                <h2>Profile Image</h2>
+                <table class="client_app" width="768" border="0">
+                    <tr>
+                       <td><p>Pic</p></td>
+	   	       <td colspan="3"><p>Description</p></td>
+                    </tr>
+                    
+
+
+                    <tr>
+                       <td><p class="table_results"><a href="{{ profile_image }}" target="_blank"><img src="{{ profile_image.replace('.jpg', '_400x400.jpg') }}" target="_blank" alt="usuario" width="100" height="100"></a></p></td>
+			<td colspan="3"><p class="table_results">{{ meta_profile_image[0] }}</p></td>
+                    </tr>
+
+                    <tr>
+                       <td><p><br></p></td>
+	   	       <td><p></p></td>
+                       <td><p></p></td>
+                       <td><p></p></td>
+                    </tr>
+
+                    <tr>
+                       <td><p>Copyright</p></td>
+	   	       <td><p>Original Datetime</p></td>
+                       <td><p>Make</p></td>
+                       <td><p>Model</p></td>
+                    </tr>
+                    <tr>
+                       <td><p class="table_results">{{ meta_profile_image[1] }}</p></td>
+   		       <td><p class="table_results">{{ meta_profile_image[2] }}</p></td>
+                      <td><p class="table_results">{{ meta_profile_image[3] }}</p></td>
+                      <td><p class="table_results">{{ meta_profile_image[4] }}</p></td>
+                    </tr>
+
+                    <tr>
+                       <td><p><br></p></td>
+	   	       <td><p></p></td>
+                       <td><p></p></td>
+                       <td><p></p></td>
+                    </tr>
+
+                    <tr>
+                       <td><p>Software</p></td>
+	   	       <td><p>Subject Distance</p></td>
+                       <td><p>Platform</p></td>
+                       <td><p>ICC Date</p></td>
+                    </tr>
+                    <tr>
+                       <td><p class="table_results">{{ meta_profile_image[5] }}</p></td>
+   		       <td><p class="table_results">{{ meta_profile_image[6] }}</p></td>
+                      <td><p class="table_results">{{ meta_profile_image[7] }}</p></td>
+                      <td><p class="table_results">{{ meta_profile_image[8] }}</p></td>
+                    </tr>
+
+                    <tr>
+                       <td><p><br></p></td>
+	   	       <td><p></p></td>
+                       <td><p></p></td>
+                       <td><p></p></td>
+                    </tr>
+
+                    <tr>
+                       <td><p>Thumbnail</p></td>
+	   	       <td><p>Coordinates</p></td>
+                       <td><p></p></td>
+                       <td><p></p></td>
+                    </tr>
+                    <tr>
+                       <td><p class="table_results">{{ thumb }}</p></td>
+   		       <td><p class="table_results">{{ coordinates }}</p></td>
+                      <td><p class="table_results"></p></td>
+                      <td><p class="table_results"></p></td>
+                    </tr>
+
+              </table>
+              
+              
+            </div><!--#end images table--> 
+              <!--media table-->            
+            <div id="client_apps">
+                <a id="media" name="media"></a>
+                <h3>User images and videos</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                <h2>Images Directory</h2>
+		  <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p class="table_results">{{ media_directory }}</p></td>
+                      <td><p></p></td>
+                      <td><p></p></td>
+                    </tr>
+                  </table>
+		  <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p></p></td>
+                      <td><p></p></td>
+                      <td><p></p></td>
+                    </tr>
+                  </table>
+                <h2>Media Resources</h2>
+              <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p>User Images & Videos</p></td>
+                      <td><p>Date</p></td>
+                      <td><p>Time</p></td>
+                    </tr>
+
+		    {% for info in media %}    
+                    <tr>
+                      <td><p class="table_results"><a href="{{ info[0] }}" target="_blank"><img src="{{ info[0] }}" width=35% heigth=35% border="0"></a></p></td>
+                      <td><p class="table_results">{{ info[2] }}</p></td>
+                      <td><p class="table_results">{{ info[3] }}</p></td>
+                    </tr>
+                     
+                    <tr>
+                      <td><p class="table_results">
+                      <ul>
+			{% if meta_size[info[0]] %}
+                      	<li>Size: {{ meta_size[info[0]] }}</li>
+                        {% endif %}                       	
+			{% if meta_description[info[0]] %}
+                      	<li>Description: {{ meta_description[info[0]] }}</li>
+                        {% endif %}                       	
+			{% if meta_copyright[info[0]] %}
+			<li>Copyright: {{ meta_copyright[info[0]] }}</li>
+                        {% endif %}                       	
+			{% if meta_date[info[0]] %}
+              		<li>Original Datetime: {{ meta_date[info[0]] }}</li>
+                        {% endif %}                       	
+			{% if meta_model[info[0]] %}
+              		<li>Model: {{ meta_model[info[0]] }}</li>
+			{% endif %}                       	
+			{% if meta_software[info[0]] %}
+  			<li>Software: {{ meta_software[info[0]] }}</li>	
+              		{% endif %}                       	
+			{% if meta_distance[info[0]] %}
+  			<li>Distance: {{ meta_distance[info[0]] }}</li>
+			{% endif %}                       	
+			{% if meta_platform[info[0]] %}
+  			<li>Platform: {{ meta_platform[info[0]]}}</li>	
+              		{% endif %}                       	
+			{% if meta_iccdate[info[0]] %}
+  			<li>ICC Date: {{ meta_iccdate[info[0]] }}</li>
+			{% endif %}                       	
+			{% if meta_coordinates[info[0]] %}
+  			<li>Coordinates: {{ meta_coordinates[info[0]] }}</li>	
+              		{% endif %}                       	
+			{% if meta_thumb[info[0]] %}
+  			<li>Thumbnail: {{ meta_thumb[info[0]] }}</li>
+			{% endif %}                       	
+		      </ul>
+                      </p></td>
+                      <td><p class="table_results"></p></td>
+                      <td><p class="table_results"></p></td>
+                    </tr>
+
+		    {% endfor %}
+				</table>
+              <p class="results">Total: {{ media_count }}  results.</p>
+            
+            </div><!--#end media table--> 
+            
+            <!--geo table-->            
+            <div id="client_apps">
+            <a id="geo" name="geo"></a>
+                <h3>Geolocation Information</h3> <a href="#top"><img class="arrow_up" src="img/arrow-up2.png" alt="up" title="up"/></a>
+                <hr/>
+                <h2>Tweets with geolocation enabled</h2>
+                <table class="client_app" width="768" border="0">
+                    <tr>
+                      <td><p>Date</p></td>
+                      <td><p>Time </p></td>
+                      <td class="coordinates"><p>Coordinates</p></td>
+                      <td><p>Media</p></td>
+                      <td><p>Tweet</p></td>
+                      <td><p>Location</p></td>
+                    </tr>
+
+                    {% for info in geo_info %}
+                    <tr>
+                      <td><p class="table_results">{{ info[3] }}</p></td>
+                      <td><p class="table_results">{{ info[4] }}</p></td>
+                      <td><p class="table_results"><a href='https://maps.google.com/maps?f=q&source=s_q&hl=es&geocode=&q={{ info[2].replace("[","").replace("]","") }}&t=h&z=19&vpsrc=6&iwloc=A' target="_blank">{{ info[2].replace("[","").replace("]","") }}</a></td>
+                      <td><p class="table_results"><a href="{{ info[0] }}">{{ geo_media[info[0]] }}</a></p></td>
+		      <td><p class="table_results"><a href="https://twitter.com/{{ screen_name }}/status/{{ info[5] }}" target="_blank">view</a></p></td>
+                      <td><p class="table_results">{{ info[1] }}</p></td>
+                    </tr>
+		    {% endfor %}
+                     
+                                  </table>
+              <p class="results">Total: {{ geo_info_count }} results.</p>
+              <h2>User route</h2>
+              <table class="client_app" width="816" border="0">
+                    <tr>
+                      <td class="user_route"><p>Tweets</p></td>
+                      <td class="user_route_date"><p>Date-Time (since) </p></td>
+                      <td class="user_route_date"><p>Date-Time (until) </p></td>
+                      <td class="user_route"><p>Days</p></td>
+                      <td class="user_route"><p>Location</p></td>
+                    </tr>
+		    {% for info in geo_visited_locations %}
+                    <tr>
+                      <td class="top_locations_tweets"><p class="table_results">{{ info[6] }} [ {{ geo_toplocations_tweets[info[0]] }} ]</p></td>
+                      <td><p class="table_results">{{ info[1] }}</p></td>
+                      <td><p class="table_results">{{ info[3] }}</p></td>
+                      <td><p class="table_results_days">{{ info[5] }}</p></td>
+                      <td><p class="table_results">{{ info[0] }}</p></td>
+                    </tr>
+                    {% endfor %}
+                    
+                                  </table>
+              <p class="results">Total: {{ geo_visited_locations_count }} results.</p>
+              <h2>Top Locations</h2>
+              <table class="client_app" width="865" border="0">
+                    <tr>
+                      <td class="top_locations_tweets"><p>Tweets</p></td>
+                      <td class="top_locations"><p>Date</p></td>
+                      <td class="top_locations"><p>Time</p></td>
+                      <td class="top_locations_days"><p>Mo</p></td>
+                      <td class="top_locations_days"><p>Tu</p></td>
+                      <td class="top_locations_days"><p>We</p></td>
+                      <td class="top_locations_days"><p>Th</p></td>
+                      <td class="top_locations_days"><p>Fr</p></td>
+                      <td class="top_locations_days"><p>Sa</p></td>
+                      <td class="top_locations_days"><p>Su</p></td>
+                      <td class="top_locations"><p>Coordinates</p></td>
+                      <td class="top_locations"><p>Place</p></td>
+                    </tr>
+
+		    {% for info in geo_toplocations %}
+                    <tr>
+                      <td class="top_locations_tweets"><p class="table_results">{{ info[0] }}</p></td>
+                      <td><p class="table_results">{{ info[1] }}<br>{{ info[2] }}</p></td>
+                      <td><p class="table_results">{{ info[3] }}<br>{{ info[4] }}</p></td>
+                      {% if info[5] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[5] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+                      {% if info[6] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[6] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+                      {% if info[7] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[7] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+                      {% if info[8] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[8] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+                      {% if info[9] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[9] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+                      {% if info[10] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[10] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+                      {% if info[11] in (info[15]) %}
+			<td><p class="table_results"><img src="img/twitter_icon_red.png" alt="twitter" title="twitter" border="0" width="20" /></p></td>
+ 		      {% else %}
+				{% if info[11] %}
+		   			<td><p class="table_results"><img src="img/twitter_icon.png" alt="twitter" title="twitter" border="0" width="20"/></p></td>
+	   		        {% else %}
+			   			<td><p class="table_results"></p></td>     		        
+				{% endif %}
+  		      {% endif %}
+   						                    
+                      <td><p class="table_results"><a href="https://maps.google.com/maps?f=q&source=s_q&hl=es&geocode=&q={{ info[12] }}&t=h&z=19&vpsrc=6&iwloc=A" target="_blank">{{ info[12] }}</a></p></td>
+                      <td><p class="table_results">{{ info[13].decode('utf-8') }}</p></td>
+                    </tr>
+		    {% endfor %}
+                  </table>
+              <p class="results">Total: {{ geo_toplocations_count }} results.</p>
+             
+            </div><!--#end geo table--> 
+        </div><!--#end datos-->
+        <div id="footer">
+        <p class="footer">www.vicenteaguileradiaz.com</p>
+        <p class="footer_link"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="CC" alt="Licencia de Creative Commons" border="0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span class="footer_link" xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><b>Tinfoleak</b></span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Vicente Aguilera Díaz</span> is licensed under a <a class="footer_link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License</a>.</p>
+        </div>
+</div>  <!--#end contenido-->
+</body>
+</html>
+

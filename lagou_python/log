@@ -1,0 +1,2301 @@
+2015-05-29 11:30:22+0800 [scrapy] INFO: Scrapy 0.24.6 started (bot: lagou_python)
+2015-05-29 11:30:22+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-05-29 11:30:22+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'lagou_python.spiders', 'SPIDER_MODULES': ['lagou_python.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'lagou_python'}
+2015-05-29 11:30:22+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-05-29 11:30:22+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, WebkitDownloader, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-05-29 11:30:22+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-05-29 11:30:22+0800 [scrapy] INFO: Enabled item pipelines: LagouPythonPipeline
+2015-05-29 11:30:22+0800 [lagou] INFO: Spider opened
+2015-05-29 11:30:22+0800 [lagou] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-05-29 11:30:22+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-05-29 11:30:22+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-05-29 11:30:22+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1> (referer: None)
+2015-05-29 11:30:26+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1
+2015-05-29 11:30:26+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:30:26+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u5b66\u9738\u541b'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u666e\u6e0a'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6559\u80b2'],
+	 'occupation_temptation': [u'\u5f85\u9047\u4f18\u539a\u3001\u6c1b\u56f4\u8f7b\u677e'],
+	 'salary': [u'13k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1499.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u4e0a\u6d77\u94a2\u94c1\u4ea4\u6613\u4e2d\u5fc3'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,\u62db\u8058'],
+	 'occupation_temptation': [u'\u56fd\u9645\u5316\u7ba1\u7406\u3001\u884c\u4e1a\u5927\u5496\u9886\u519b\u3001\u5e73\u7b49\u5f00\u653e\u6c1b\u56f4'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/63759.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u6676\u8d5e\u79d1\u6280Zam', u'lus'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u6c64\u5947\u5cf0'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u56fd\u5916\u65c5\u6e38\u3001\u56fd\u5916\u57f9\u8bad\u3001\u4e0b\u5348\u8336'],
+	 'salary': [u'10k\u4ee5\u4e0a'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/22321.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'Mi', u'd', u'urb'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u524d\u6cbf\u79d1\u6280 \u6301\u7eed\u57f9\u8bad \u524d\u666f\u5353\u7136 \u4e30\u539a\u80a1\u6743'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/37929.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u6c47\u8054\u7686\u666f'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u9ad8\u89c6'],
+	 'job_fields': [u'\u65c5\u6e38'],
+	 'occupation_temptation': [u'\u673a\u4f1a\u591a \u8d44\u6e90\u591a \u5e73\u53f0\u5927 \u516c\u53f8\u6709\u94b1'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/2460.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u95ee\u5377\u7f51@\u7231\u8c03\u7814'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5411\u5b88\u519b'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u65c5\u6e38\u3001\u671f\u6743\u3001\u4e0b\u5348\u8336\u3001\u59b9\u5b50\u7f8e\u3001\u5e05\u54e5\u591a'],
+	 'salary': [u'11k-20k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/22481.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u9f99\u9ed8\u5347\u79d1\u6280'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e7f\u9614\u7684\u53d1\u5c55\u524d\u666f\uff0c\u5feb\u901f\u6210\u957f\u7684\u5e73\u53f0\uff01'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/2076.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u6d3e\u614e\u7f51\u7edc'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5218\u4f73'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u9ad8\u85aa+\u6241\u5e73\u5316\u7ba1\u7406+\u514d\u8d39\u8fdb\u53e3\u98df\u54c1'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/29777.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u8fc8\u5916\u8fea'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5f20\u7a0b'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u81f3\u5c11\u6bcf\u5b63\u5ea6\u4e00\u6b21\u56e2\u5efa\u6d3b\u52a8\uff1b\u5e74\u7ec8\u56fd\u5916\u65c5\u6e38\u673a\u4f1a'],
+	 'salary': [u'8k-12k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1638.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u6613\u8dc3\u79fb\u52a8'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6e38\u620f'],
+	 'occupation_temptation': [u'\u4eba\u6027\u5316\u7684\u5047\u671f'],
+	 'salary': [u'15k-18k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/36911.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u6027\u80fd\u9b54\u65b9'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u516c\u53f8\u9ad8\u901f\u53d1\u5c55\u4e2d\uff0c\u804c\u4f4d\u524d\u666f\u8f83\u597d'],
+	 'salary': [u'10k\u4ee5\u4e0a'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/45527.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u4e0a\u6d77\u777f\u5bc6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u6731\u6587\u96f7'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5f00\u53d1\u9aa8\u5e72\u4e94\u9669\u4e00\u91d1\u6280\u80fd\u57f9\u8bad\u5feb\u901f\u5347\u804c'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/7186.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'L', u'gic s', u'lu', u'i', u's'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' Jimmy HSIAO'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6b63\u89c4\u4e94\u9669\u4e00\u91d1\uff1b13\u85aa'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/29318.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u6570\u805a\u8f6f\u4ef6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u63d0\u4f9b\u65e0\u9650\u91cf\u7684\u7f8e\u98df\u5c0f\u5403'],
+	 'salary': [u'15k-22k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/55163.html']}
+2015-05-29 11:30:26+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1>
+	{'company': [u'\u4e70\u8863\u723d'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,O2O'],
+	 'occupation_temptation': [u'\u6240\u6709\u4eba\u5e78\u798f\u7684\u50cf\u82b1\u4e00\u6837'],
+	 'salary': [u'20k-26k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/58328.html']}
+2015-05-29 11:30:26+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24
+2015-05-29 11:30:27+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1
+2015-05-29 11:30:30+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24
+2015-05-29 11:30:33+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24
+2015-05-29 11:30:36+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2015-05-29 11:30:38+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5
+2015-05-29 11:30:41+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11
+2015-05-29 11:30:44+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2015-05-29 11:30:47+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3
+2015-05-29 11:30:50+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
+2015-05-29 11:30:54+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
+2015-05-29 11:30:57+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3
+2015-05-29 11:31:00+0800 [scrapy] INFO: Current UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Crawled (200) <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2> (referer: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=1)
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14>
+	{'company': [u'Seedli', u'k'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u7845\u8c37\u7cbe\u795e\u7684\u56fd\u9645\u5316\u521b\u4e1a\u56e2\u961f'],
+	 'salary': [u'15k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42031.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14>
+	{'company': [u'\u5343\u96c6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5218\u4ea6\u5468'],
+	 'job_fields': [u'\u6e38\u620f'],
+	 'occupation_temptation': [u'5%\u671f\u6743\uff0c\u85aa\u8d44\u9ad8\uff0c\u798f\u5229\u597d\uff0c3\u6708\u6da8\u85aa\u4e00\u6b21'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/44329.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14>
+	{'company': [u'\u836f\u660e\u5eb7\u5fb7'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u533b\u7597\u5065\u5eb7'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1 \u5e26\u85aa\u5e74\u5047 \u514d\u8d39\u5348\u9910/\u73ed\u8f66 \u5468\u672b\u53cc\u4f11'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/62474.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u5916\u5356\u8d85\u4eba'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [u' Lucas Englehardt'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5fb7\u8d44\u80cc\u666f\u4e92\u8054\u7f51\u4f01\u4e1a\uff0cO2O\u5916\u5356\u7b2c\u4e00\u9635\u8425'],
+	 'salary': [u'30k-50k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u5916\u5356\u8d85\u4eba'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [u' Lucas Englehardt'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5fb7\u8d44\u80cc\u666f\u4e92\u8054\u7f51\u4f01\u4e1a\uff0cO2O\u5916\u5356\u7b2c\u4e00\u9635\u8425'],
+	 'salary': [u'30k-50k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'Seedli', u'k'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u56fd\u9645\u5316\u7684\u521b\u4e1a\u56e2\u961f, \u7845\u8c37\u7cbe\u795e'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42031.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u89e6\u5b9d\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Michael Wong'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u514d\u8d39\u65e9\u9910\u3001\u6c34\u679c\u3001\u996e\u6599\u3001\u52a0\u73ed\u9910'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/7030.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u5916\u5356\u8d85\u4eba'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Lucas Englehardt'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5fb7\u8d44\u80cc\u666f\u4e92\u8054\u7f51\u4f01\u4e1a\uff0cO2O\u5916\u5356\u7b2c\u4e00\u9635\u8425'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u660e\u673a\u5668\u4ebaR', u'b', u'Mi', u'g'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u6bb5\u6bc5\u94a7'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e3a\u4e00\u4e2a\u5f88\u9177\u7684\u673a\u5668\u4eba\u4ea7\u54c1\u5f00\u53d1\u5f88\u9177\u7684\u540e\u53f0'],
+	 'salary': [u'8k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/29183.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u643a\u7a0b'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u8303\u654f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u65c5\u6e38'],
+	 'occupation_temptation': [u'\u65c5\u6e38\u798f\u5229\uff0c\u51fa\u52e4\u8865\u8d34\uff0c\u5956\u91d1\u4e30\u539a'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/6636.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u4e03\u68ee\u8272'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6700\u65b0\u7684\u6280\u672f \u81ea\u7531\u7684\u56e2\u961f\u6c1b\u56f4'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/18629.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u571f\u8c46\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u571f\u8c46\u7f51 \u6bcf\u4e2a\u4eba\u90fd\u662f\u751f\u6d3b\u7684\u5bfc\u6f14'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/20839.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u4ef6\u4ef6\u901a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5f39\u6027\u5de5\u4f5c;\u65e9\u671f\u671f\u6743;\u5e74\u5ea6\u65c5\u6e38;\u5b9a\u671f\u4f53\u68c0'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/55942.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u7968\u5e08\u4ed8'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u738b\u6d77\u5cf0'],
+	 'job_fields': [u'\u793e\u4ea4\u7f51\u7edc,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'IT\u7cbe\u82f1'],
+	 'salary': [u'5k-9k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/62557.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u827e\u683c\u6587'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u76f4\u63a5\u6c47\u62a5\u7ed9\u521b\u59cb\u4eba'],
+	 'salary': [u'25k-40k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/38589.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u4e91\u9014'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u90ed\u821c\u65e5'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u5de5\u4f5c6\u5c0f\u65f6\uff0c10\u5929\u5e26\u85aa\u5e74\u5047\uff0c12\u5929\u5e26\u85aa\u75c5\u5047'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/11157.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u8c37\u9732\u8f6f\u4ef6'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u65bd\u6da6\u6625'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1,\u62db\u8058'],
+	 'occupation_temptation': [u'\u521d\u521b\u516c\u53f8\uff0c\u56e2\u961f\u4f18\u5f02\uff0c\u4e2a\u4eba\u6210\u957f\u7a7a\u95f4\u5927'],
+	 'salary': [u'20k-40k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/5002.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'e', u'is'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5f39\u6027\u5de5\u65f6 \u5e74\u7ec8\u53cc\u85aa \u5e26\u85aa\u5e74\u5047 \u5e74\u5ea6\u65c5\u6e38\u7b49'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/11933.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'ELIC', u'-C', u'R'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' ERIC CAUDAL'],
+	 'job_fields': [u'\u65c5\u6e38,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u975e\u51e1\u7684\u5f00\u6e90ERP\uff0cOdoo\u4e9a\u592a\u5730\u533a\u6700\u4f73\u5408\u4f5c\u4f19\u4f34'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/46549.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u6613\u73ed\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6559\u80b2'],
+	 'occupation_temptation': [u'\u56fd\u4f01'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/55065.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u8fce\u6668'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e0a\u6d77\u67d0\u5927\u578b\u4e92\u8054\u7f51\u516c\u53f8\u9ad8\u85aa\u8bda\u8058'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/40619.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u6c47\u8bc4'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u4e25\u541b\u633a'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1,\u5e7f\u544a\u8425\u9500'],
+	 'occupation_temptation': [u'\u5e74\u5e95\u53cc\u85aa\uff0c\u5e26\u85aa\u5e74\u5047\uff0c\u4e94\u9669\u4e00\u91d1'],
+	 'salary': [u'7k-10k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/11285.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u6d77\u540c\u79d1\u6280'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51 ,\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u516c\u53f8\u89c4\u6a21\u5927\uff0c\u85aa\u8d44\u798f\u5229\u597d\uff0c\u957f\u671f\u7a33\u5b9a\u53d1\u5c55\u3002'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/24895.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u600e\u4e48\u88c5'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u534e\u5e05'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,O2O'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1 \u5f39\u6027\u65f6\u95f4 \u4f18\u539a\u671f\u6743 \u7bee\u7403\u573a \u8db3\u7403\u573a'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/38917.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u56e2\u961f  \u6709\u5e7f\u6cdb\u7684\u5ba2\u6237\u8d44\u6e90'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u57fa\u7840\u8f6f\u4ef6\u7814\u7a76\u4e2d\u5fc3'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e2d\u79d1\u9662\uff0c\u5f71\u54cd\u4e2d\u56fd\u7684\u4e8b\u4e1a\uff0c\u9ad8\u5b66\u5386\uff0c\u9ad8\u6280\u80fd'],
+	 'salary': [u'15k\u4ee5\u4e0a'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/21423.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u4e91\u9014'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u90ed\u821c\u65e5'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'10\u70b9\u4e0a\u73ed\uff0c10\u5929\u5e74\u5047\uff0c12\u5929\u5e26\u85aa\u75c5\u5047'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/11157.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'Gl', u'w'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' Max Levchin'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u533b\u7597\u5065\u5eb7'],
+	 'occupation_temptation': [u'\u4e0e\u9876\u5c16\u4eba\u624d\u4e00\u8d77\u5de5\u4f5c\uff0c\u8fd1\u8ddd\u79bb\u4f53\u9a8c\u7845\u8c37\u6587\u5316'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/9455.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u597d\u4e70\u8863'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u9ec4\u4ef2\u751f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'\u548c\u5927\u725b\u4e00\u8d77\u4ea4\u6d41 \u4e30\u539a\u7684\u671f\u6743\u56de\u62a5'],
+	 'salary': [u'7k-14k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/8903.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u6613\u8dc3\u79fb\u52a8'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6e38\u620f'],
+	 'occupation_temptation': [u'\u5e74\u7ec8\u5206\u7ea2+\u4e13\u9879\u5956\u91d1+\u5e74\u5e95\u53cc\u85aa'],
+	 'salary': [u'18k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/36911.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u4e0a\u6d77\u777f\u5bc6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u6731\u6587\u96f7'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u6280\u80fd\u57f9\u8bad\u5f00\u53d1\u9aa8\u5e72\u4e94\u9669\u4e00\u91d1\u5feb\u901f\u5347\u804c'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/7186.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u607a\u82f1\u7f51\u7edc'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u738b\u60a6'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6e38\u620f'],
+	 'occupation_temptation': [u'\u4e30\u539a\u7684\u9879\u76ee\u5956\u91d1\u548c\u5e74\u7ec8\u5956'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'500-2000\u4eba'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/4428.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'J', u'\u5065\u8eab'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6709\u5bfc\u5e08\u4eb2\u81ea\u5e26\u4f60~'],
+	 'salary': [u'2k-4k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/72157.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u70ab\u8e2a\u7f51\u7edc'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u674e\u5316\u96f7'],
+	 'job_fields': [u'\u6e38\u620f'],
+	 'occupation_temptation': [u'\u5927\u578b\u7cfb\u7edf\u5f00\u53d1 \u6280\u672f\u725b\u4eba \u5404\u79cd\u5956\u91d1'],
+	 'salary': [u'13k-20k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/43758.html']}
+2015-05-29 11:31:07+0800 [scrapy] INFO: Fetch page: http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2
+2015-05-29 11:31:07+0800 [scrapy] INFO: total_page_value: [u'14']
+2015-05-29 11:31:07+0800 [scrapy] INFO: page_number: 14
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'eMi', u'dLis'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'Python\u98de\u884c\u9a6c\u620f\u56e2\uff0c\u6b22\u8fce\u52a0\u5165'],
+	 'salary': [u'10k\u4ee5\u4e0a'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/63909.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u6c99\u821f'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5510\u745c'],
+	 'job_fields': [u'\u6e38\u620f'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1'],
+	 'salary': [u'4k-8k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/43878.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u6613\u8dc3\u79fb\u52a8'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6e38\u620f'],
+	 'occupation_temptation': [u'\u4eba\u6027\u5316\u7684\u5047\u671f'],
+	 'salary': [u'18k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/36911.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14>
+	{'company': [u'Vi', u'erGame\u552f\u6d3e'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6e38\u620f,\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4f60\u7684\u540d\u5b57\u5c06\u88ab\u8bb0\u5165\u4e00\u6b3e\u5168\u7403\u9876\u5c16\u4f5c\u54c1'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/53259.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=14>
+	{'company': [u'\u5c0f\u83ab\u7f51\u7edc\u79d1\u6280'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u7530\u4e07\u6842'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u5176\u4ed6'],
+	 'occupation_temptation': [u'\u63d0\u4f9b\u5e73\u53f0\uff0c\u8ba9\u4f60\u5b9e\u73b0\u65e0\u9650\u53ef\u80fd'],
+	 'salary': [u'7k-12k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/55172.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Filtered duplicate request: <GET http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u5982\u9e7f\u7f51\u7edc'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u675c\u777f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'\u80a1\u7968\u671f\u6743\uff0c\u6210\u4e3a\u9ad8\u7ba1\u540eL1\u5916\u6d3e\u5230\u7f8e\u56fd\u62ff\u7eff\u5361'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/67074.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u56e2\u961f \u4e3a\u4f19\u4f34\u4eec\u63d0\u4f9b\u826f\u6027\u7684\u6210\u957f\u7a7a\u95f4'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u5982\u9e7f\u7f51\u7edc'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u675c\u777f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'\u539f\u59cb\u80a1\uff0c\u671f\u6743\uff0cL1\u5916\u6d3e\uff0c\u7f8e\u56fd\u7eff\u5361\uff0c\u9ad8\u7ba1'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/67074.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u7f8e\u4e2b'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u53f6\u6ce2'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1+\u996d\u8d34+\u6cd5\u5b9a\u8282\u5047\u65e5+\u5e74\u4f11\u5047....'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/28993.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u5916\u5356\u8d85\u4eba'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Lucas Englehardt'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u4f18\u79c0\u7684\u521b\u4e1a\u56e2\u961f\uff0c\u5458\u5de5\u548c\u516c\u53f8\u4e00\u8d77\u7206\u53d1'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'ECLICK GAME'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' ALEX&\u51ef\u91cf'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6e38\u620f'],
+	 'occupation_temptation': [u'\u5e74\u7ec8\u5956\u91d1\u3001\u5e26\u85aa\u5e74\u5047\u3001\u5b9a\u671f\u65c5\u6e38'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/44131.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u543e\u80fd iCa'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8c22\u5dcd'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u5f85\u9047\u4f18\u539a'],
+	 'salary': [u'13k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/37188.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u840c\u901a\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u793e\u4ea4\u7f51\u7edc'],
+	 'occupation_temptation': [u'\u798f\u5229\u597d\uff0c\u6c1b\u56f4\u597d\uff0c\u53d1\u5c55\u7a7a\u95f4\u5927'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/29333.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u5317\u4eac\u817e\u4fe1\u521b\u65b0\u4e0a\u6d77'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u65c5\u6e38 \u4f53\u68c0 \u5404\u9879\u6d25\u8d34 \u8282\u5047\u65e5\u798f\u5229'],
+	 'salary': [u'6k-10k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/40003.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u53ee\u549a\u5c0f\u533a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,O2O'],
+	 'occupation_temptation': [u'13\u85aa\uff0c\u8865\u5145\u533b\u7597\u4fdd\u9669'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'500-2000\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/23233.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u4e03\u68ee\u8272'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6211\u4eec\u5c06\u521b\u9020\u4e00\u79cd\u5168\u65b0\u7684\u5546\u4e1a\u6570\u636e\u4f7f\u7528\u65b9\u5f0f'],
+	 'salary': [u'20k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/18629.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u7280\u601d\u4e91'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1\uff0c\u5e26\u85aa\u5e74\u5047\uff0c\u5e74\u5ea6\u65c5\u6e38\uff0c\u5b9a\u671f\u4f53\u68c0'],
+	 'salary': [u'9k-15k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/4472.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u4e0a\u6d77\u5e93\u94ed\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u51af\u7389\u5149'],
+	 'job_fields': [u'O2O,\u91d1\u878d'],
+	 'occupation_temptation': [u'\u5b66\u4e0d\u5b8c\u7684\u521b\u4e1a\u7ecf\u9a8c\uff0c\u6570\u4e0d\u5b8c\u7684\u94b1\u548c\u59b9\u5b50^^'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/45876.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u9752\u82f9\u679c\u5065\u5eb7'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f90\u5609'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u533b\u7597\u5065\u5eb7'],
+	 'occupation_temptation': [u'\u9876\u7ea7VC\u6295\u8d44\u3001\u522b\u5885\u529e\u516c\u3001\u7f8e\u5973\u591a\u3001\u798f\u5229\u66f4\u591a'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/4016.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u672a\u6728\u7f51\u7edc'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'O2O,\u6559\u80b2'],
+	 'occupation_temptation': [u'\u8be5\u6709\u7684\u90fd\u6709\uff0c\u4e0d\u8be5\u6709\u7684\u4e5f\u53ef\u4ee5\u6709'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/53508.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u4e03\u68ee\u8272'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u73af\u5883\u597d \u9886\u5bfc\u597d \u85aa\u8d44\u9ad8'],
+	 'salary': [u'15k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/18629.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u56e2\u961f \u516c\u53f8\u5ba2\u6237\u8d44\u6e90\u96c4\u539a'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u58e4\u6b4c'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8fde\u6e05\u5ddd'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e26\u85aa\u5e74\u5047+\u5b9a\u671f\u4f53\u68c0+\u5e74\u7ec8\u5956+\u8282\u5047\u65e5\u798f\u5229'],
+	 'salary': [u'20k-30k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/39398.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u5c0f\u7ea2\u4e66'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u6bdb\u6587\u8d85'],
+	 'job_fields': [u'\u65c5\u6e38,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'\u534a\u5e74(\u56fd\u5185)\u5e74\u5ea6(\u56fd\u5916)\u65c5\u6e38\uff0c\u63d0\u4f9b\u5348\u9910/\u665a\u9910'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/6542.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'Visc', u'ver'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u9ec3\u4fca\u6770\uff08Amos Huang\uff09'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,O2O'],
+	 'occupation_temptation': [u'\u5956\u91d1\u7ea2\u5229\u3001\u91cd\u89c6\u4eba\u624d \u3001\u8de8\u570b\u5de5\u4f5c'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/27681.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u4e0a\u6d77\u6caa\u65b9'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e2d\u56fd\u79d1\u5b66\u9662\uff0c\u5f71\u54cd\u4e2d\u56fd\u7684\u4e8b\u4e1a\uff0c\u9ad8\u6280\u80fd\u4e91\u96c6'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/47859.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u9e9f\u5947\u7f51\u7edc'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8d75\u5b8f\u534e'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u793e\u4ea4\u7f51\u7edc'],
+	 'occupation_temptation': [u'\u5f85\u9047\u4f18\u539a\uff0c\u53d1\u6325\u7a7a\u95f4\u5927'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/54227.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u7559\u5b66\u90a6'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u8d75\u4eae'],
+	 'job_fields': [u'\u6559\u80b2'],
+	 'occupation_temptation': [u'\u4e30\u539a\u671f\u6743'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/21305.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u9ad8\u901f\u589e\u957f\u7684\u521b\u4e1a\u516c\u53f8\uff0c\u53ef\u5206\u671f\u6743'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u53d1\u5c55\u524d\u666f\u5de8\u5927'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u6676\u8d5e\u79d1\u6280Zam', u'lus'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u6c64\u5947\u5cf0'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u5f39\u6027\u5de5\u4f5c\u5236\u3001\u56fd\u5916\u65c5\u6e38\u3001\u514d\u8d39\u65e9\u9910\u3001\u4e0b\u5348\u8336\u7b49'],
+	 'salary': [u'10k\u4ee5\u4e0a'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/22321.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u57fa\u7840\u8f6f\u4ef6\u7814\u7a76\u4e2d\u5fc3'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e2d\u79d1\u9662\u63a7\u80a1\uff0c\u9ad8\u5b66\u5386\u9ad8\u6280\u80fd\u4e91\u96c6\uff0c\u56fd\u5bb6\u7ea7\u9879\u76ee'],
+	 'salary': [u'10k-14k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/56261.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u826f\u6e0a'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,O2O'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1 \u5e26\u85aa\u4f11\u5047 \u664b\u5347\u7a7a\u95f4\u5927'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/56431.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u4e50\u65e0\u9650'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u7ee9\u6548\u5956\u91d1 \u664b\u5347\u7a7a\u95f4 5\u96691\u91d1 \u5b8c\u5584\u7684\u4f11\u5047\u4f53\u7cfb'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/54648.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u997f\u4e86\u4e48'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5f20\u65ed\u8c6a'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u62db\u8058'],
+	 'occupation_temptation': [u'\u5e26\u85aa\u5e74\u5047+\u5b9a\u671f\u4f53\u68c0+\u5e74\u7ec8\u5956+\u8282\u5047\u65e5\u798f\u5229'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/203.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u4e0e\u57fa\u7840\u8f6f\u4ef6...'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4f18\u539a\u7684\u798f\u5229\u5f85\u9047\uff0c\u4eba\u6027\u5316\u7684\u7ba1\u7406'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'500-2000\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/45086.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u4e0a\u6d77\u80dc\u65e5'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u9ad8\u4e8e\u884c\u4e1a\u7684\u85aa\u916c\uff0c\u5e02\u573a\u4f18\u52bf\uff0c\u6210\u957f\u673a\u4f1a'],
+	 'salary': [u'9k\u4ee5\u4e0a'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/10829.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u7231\u5947\u827a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u9f9a\u5b87'],
+	 'job_fields': [u'\u5e7f\u544a\u8425\u9500,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u798f\u5229\u8865\u8d34\uff0c\u7ee9\u6548\u8003\u6838\uff0c\u5546\u4e1a\u4fdd\u9669\u7b49'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/1686.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u5c55\u7c73'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u516c\u53f8\u6b63\u5728\u8d77\u6b65\u4e2d\uff0c\u6765\u4e86\u4f60\u5c31\u662f\u5143\u8001'],
+	 'salary': [u'9k-15k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/46624.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'ELIC', u'-C', u'R'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' ERIC CAUDAL'],
+	 'job_fields': [u'\u65c5\u6e38,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u8d1f\u8d23PYTHON\u5f00\u53d1'],
+	 'salary': [u'7k-14k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/46549.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'DK'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u6280\u672f\u6311\u6218\u3001\u7ee9\u6548\u5956\u91d1\u3001\u671f\u6743\u6fc0\u52b1\u3001\u5b9e\u73b0\u68a6\u60f3'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/6861.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u7231\u5947\u827a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u9f9a\u5b87'],
+	 'job_fields': [u'\u5e7f\u544a\u8425\u9500,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u798f\u5229\u8865\u8d34\uff0c\u7ee9\u6548\u8003\u6838\uff0c\u5546\u4e1a\u4fdd\u9669\u7b49'],
+	 'salary': [u'10k-18k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/1686.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'ZMS'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u53d1\u5c55\u597d\uff0c \u73af\u5883\u8f7b\u677e\uff0c\u9886\u5bfc\u597d'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/26743.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u57fa\u7840\u8f6f\u4ef6\u7814\u7a76\u4e2d\u5fc3'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e2d\u79d1\u9662\u63a7\u80a1\uff0c\u9ad8\u5b66\u5386\u9ad8\u6280\u80fd\u4e91\u96c6\uff0c\u56fd\u5bb6\u7ea7\u9879\u76ee'],
+	 'salary': [u'8k-10k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/56261.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u4e1c\u8f6f'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u533b\u7597\u5065\u5eb7,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u6280\u672f\u7cbe\u82f1\uff0c\u9ad8\u5e73\u53f0\uff0c\u9ad8\u85aa\u916c'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/9015.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'B', u'CC', u'i', u'a\u6bd4\u7279\u5e01\u4e2d\u56fd'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u674e\u542f\u5143Bobby lee'],
+	 'job_fields': [u'\u91d1\u878d'],
+	 'occupation_temptation': [u'\u70ed\u60c5 \u81ea\u7531 \u5e73\u7b49 \u591a\u5143 \u521b\u9020 \u5a31\u4e50'],
+	 'salary': [u'7k-14k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42029.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u4e03\u68ee\u8272'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u597d\u7684\u4ea7\u54c1+\u597d\u7684\u5f00\u53d1\u6c1b\u56f4+\u597d\u7684\u9886\u5bfc'],
+	 'salary': [u'20k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/18629.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u8109\u521b\u7f51\u7edc'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4f60\u6709\u80fd\u529b\uff0c\u6211\u6709\u7a7a\u95f4\uff1b\u4f60\u6709\u68a6\u60f3\uff0c\u6211\u6709\u821e\u53f0\u3002'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/2416.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u4e0a\u6d77\u80dc\u65e5'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u9ad8\u4e8e\u884c\u4e1a\u7684\u85aa\u916c\uff0c\u5e02\u573a\u4f18\u52bf\uff0c\u6210\u957f\u673a\u4f1a'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/10829.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u8fbe\u8fbe'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u84af\u4f73\u797a'],
+	 'job_fields': [u'O2O'],
+	 'occupation_temptation': [u'\u5343\u4e07\u5929\u4f7f\u8f6e\u6700\u70ed\u95e8O2O\u884c\u4e1a\uff0c\u4f60\u6765\u5c31\u6709\u821e\u53f0'],
+	 'salary': [u'13k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/32836.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u6613\u8def'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u738b\u5929\u626c'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u91d1\u878d'],
+	 'occupation_temptation': [u'\u5929\u4f7f\u8f6e\u8fbe\u5230\u4e0a\u4ebf\u4f30\u503c\u7684\u521b\u4e1a\u56e2\u961f\uff0c\u8fd8\u7b49\u4ec0\u4e48\uff1f'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/35796.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u5883\u777f\u4fe1\u606f'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u7ee9\u6548\u5956\u91d1'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/65877.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u8c37\u9732\u8f6f\u4ef6'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u65bd\u6da6\u6625'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1,\u62db\u8058'],
+	 'occupation_temptation': [u'\u521d\u521b\u516c\u53f8\uff0c\u56e2\u961f\u4f18\u5f02\uff0c\u4e2a\u4eba\u6210\u957f\u7a7a\u95f4\u5927'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/5002.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u8fc8\u5916\u8fea'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u5f20\u7a0b'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u81f3\u5c11\u6bcf\u5b63\u5ea6\u4e00\u6b21\u56e2\u5efa\u6d3b\u52a8\uff1b\u5e74\u7ec8\u56fd\u5916\u65c5\u6e38\u673a\u4f1a'],
+	 'salary': [u'13k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1638.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u56e2\u961f \u5de5\u4f5c\u6c1b\u56f4\u878d\u6d3d'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u8d39\u66fc\u7f51\u7edc'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1\u5e74\u4ee5\u4e0b'],
+	 'founder': [u' \u5362\u6b63\u5174'],
+	 'job_fields': [u'O2O'],
+	 'occupation_temptation': [u'\u7ecf\u9a8c\u4e0d\u591f\u6ca1\u5173\u7cfb\uff0c\u6211\u4eec\u6709\u5927\u5496\u5e26\u4f60\uff01'],
+	 'salary': [u'9k-12k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/52033.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u5916\u5356\u8d85\u4eba'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Lucas Englehardt'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5fb7\u8d44\u80cc\u666f\u4e92\u8054\u7f51\u4f01\u4e1a\uff0cO2O\u5916\u5356\u7b2c\u4e00\u9635\u8425'],
+	 'salary': [u'20k-35k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5f85\u9047\u4ece\u4f18\uff0c\u7ee9\u6548\u5956\u91d1\uff0c\u5e74\u5e95\u5206\u7ea2'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u6885\u9ad8\u5927\u6570\u636e'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1\u3001\u5e26\u85aa\u5e74\u5047'],
+	 'salary': [u'20k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/50151.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u4e07\u80a1\u901a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u987e\u6d2a\u9524'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u91d1\u878d'],
+	 'occupation_temptation': [u'\u80a1\u7968\u671f\u6743\u3001\u664b\u5347\u7a7a\u95f4\u3001\u53d1\u5c55\u524d\u666f'],
+	 'salary': [u'9k-18k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/72943.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u8fc8\u5916\u8fea'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f20\u7a0b'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u80a1\u6743\u6fc0\u52b1\uff1b\u4f18\u79c0\u5458\u5de5\u51fa\u56fd\u65c5\u6e38\uff1b\u5f85\u9047\u4f18\u539a'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1638.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u4e50\u505c\u8f66'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' Max'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6709\u8f6f\u59b9\u5b50\u966a\u4f60\u4e0a\u73ed\u3001\u5403\u996d\u3001\u52a0\u73ed\u3001\u7ee7\u7eed\u52a0\u73ed~'],
+	 'salary': [u'7k-14k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/63543.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u997f\u4e86\u4e48'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u5f20\u65ed\u8c6a'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4f60\u4ee5\u4e3aJD\u7b80\u5355\uff0c\u5c31\u662f\u804c\u4f4d\u7b80\u5355\u4e48\uff1f'],
+	 'salary': [u'15k-20k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/51480.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u6613\u8def'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u738b\u5929\u626c'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u91d1\u878d'],
+	 'occupation_temptation': [u'\u5929\u4f7f\u8f6e\u8fbe\u5230\u4e0a\u4ebf\u4f30\u503c\u7684\u521b\u4e1a\u56e2\u961f\uff0c\u8fd8\u7b49\u4ec0\u4e48\uff1f'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/35796.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u51a0\u95f5'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1\u3001\u7ee9\u6548\u5956\u91d1\u3001\u516c\u53f8\u798f\u5229\u3001\u804c\u4e1a\u57f9\u8bad'],
+	 'salary': [u'7k-14k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/42787.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u91d1\u706f\u53f0\u4fe1\u606f'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u521b\u4e1a\u516c\u53f8\uff0c\u9886\u57df\u65b0\uff0c\u524d\u666f\u5e7f\u9614'],
+	 'salary': [u'9k-12k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/54290.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u9b54\u4e4b\u89c6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u738b\u777f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u80fd\u529b\u51b3\u5b9a\u85aa\u916c\uff0c\u80fd\u529b\u8d8a\u5927\uff0c\u85aa\u916c\u8d8a\u9ad8\u3002'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/38024.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u997f\u4e86\u4e48'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5f20\u65ed\u8c6a'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u62db\u8058'],
+	 'occupation_temptation': [u'\u5f85\u9047\u4e0d\u4f4e\u4e8eBAT'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/203.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u89e6\u5b9d\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Michael Wong'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u5e95\u5956\u91d1\uff0c\u4e94\u9669\u4e00\u91d1\uff0c\u514d\u8d39\u65c5\u6e38'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/7030.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u4e50\u86d9'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8d75\u529b & \u8881\u6f5c\u9f99'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u7684\u56e2\u961f\uff0c\u548c\u8c10\u7684\u6c1b\u56f4'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/2618.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u98de\u821f'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,O2O'],
+	 'occupation_temptation': [u'\u5de5\u4f5c\u6c1b\u56f4\u8f7b\u677e\u6109\u5feb\uff0c\u9ad8\u6210\u957f\u7a7a\u95f4'],
+	 'salary': [u'3k-6k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/28764.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u6cfd\u7554'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u674e\u9e4f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e92\u8054\u7f51\u91d1\u878d\u65b9\u5411'],
+	 'salary': [u'7k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/27087.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u8fc8\u5916\u8fea'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f20\u7a0b'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e2d\u56fd\u6700\u5927\u5546\u4e1aWi-Fi\uff0c\u5efa\u8bbe\u79fb\u52a8\u4e92\u8054\u7f51\u65b0\u751f\u6001'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1638.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'ewC', u'ama'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' Joanna'],
+	 'job_fields': [u'\u91d1\u878d'],
+	 'occupation_temptation': [u'\u4e92\u8054\u7f51\u91d1\u878d\u521b\u4e1a\u516c\u53f8\uff0c\u5de5\u4f5c\u6709\u5f39\u6027'],
+	 'salary': [u'15k-18k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/56519.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u6295\u8d44\u575e'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8c46\u519b'],
+	 'job_fields': [u'\u91d1\u878d,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u80a1\u6743\u6fc0\u52b1\uff0c\u798f\u5229\u5f85\u9047\u597d\uff0c\u5de5\u4f5c\u6c1b\u56f4\u8f7b\u677e'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/57258.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u8fbe\u8fbe'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u84af\u4f73\u797a'],
+	 'job_fields': [u'O2O'],
+	 'occupation_temptation': [u'\u521b\u4e1a\u516c\u53f8\uff0c\u6210\u957f\u7a7a\u95f4\u5927\uff0c\u6280\u672f\u6c1b\u56f4\u6d53\u539a'],
+	 'salary': [u'13k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/32836.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u5fa1\u8861\u7f51\u7edc\u79d1\u6280'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f90\u7f61'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u798f\u5229\u597d \u7a7a\u95f4\u5927 \u7ee9\u6548\u5956\u52b1 \u56e2\u961f\u548c\u8c10'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/50645.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u4e0a\u533b\u7f51'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u738b\u4e01'],
+	 'job_fields': [u'O2O,\u533b\u7597\u5065\u5eb7'],
+	 'occupation_temptation': [u'\u53d1\u5c55\u7a7a\u95f4 \u671f\u6743\u5956\u52b1'],
+	 'salary': [u'4k-8k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/15145.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u6b66\u6c49\u7f8e\u627f'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u738b\u4e49\u5175'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u96c6\u56e2\u516c\u53f8\uff0c\u5e73\u53f0\u5927\uff0c\u53d1\u5c55\u597d\uff0c\u85aa\u8d44\u4f73'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'500-2000\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/37758.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u5fa1\u8861\u7f51\u7edc\u79d1\u6280'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5f90\u7f61'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u798f\u5229\u597d \u7a7a\u95f4\u5927 \u7ee9\u6548\u5956\u52b1 \u56e2\u961f\u548c\u8c10'],
+	 'salary': [u'10k-17k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/50645.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u4e0a\u6d77\u6caa\u65b9'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e2d\u79d1\u9662\u63a7\u80a1\uff0c\u5f71\u54cd\u4e2d\u56fd\u7684\u4e8b\u4e1a\uff0c\u9ad8\u6280\u80fd\u4eba\u624d'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/47859.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u6b27\u51b6\u4e91\u5546'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u56fd\u9645\u5316\u7ba1\u7406\u3001\u884c\u4e1a\u5927\u5496\u9886\u519b\u3001\u5e73\u7b49\u5f00\u653e\u6c1b\u56f4'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/67596.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u4e0e\u57fa\u7840\u8f6f\u4ef6...'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u63d0\u4f9b\u66f4\u597d\u7684\u53d1\u5c55\u5e73\u53f0\uff0c\u4f18\u539a\u7684\u798f\u5229\u5f85\u9047'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'500-2000\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/45086.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u7269\u8054\u9a7f\u7ad9'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u590f\u529b\u7ef4'],
+	 'job_fields': [u'O2O'],
+	 'occupation_temptation': [u'\u4f19\u540c\u62d2\u6389FB offer\u7684\u5de5\u7a0b\u5e08\u4eec\u4e00\u8d77\u6311\u6218\u6781\u9650'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/51746.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u7231\u798f\u7a9d'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' Wayne'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u798f\u5229\u4f18\u539a \u5f85\u9047\u4f18\u539a \u5982\uff1a\u996d\u8d34\u3001\u4e94\u9669\u4e00\u91d1\u7b49\uff01'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1313.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u6570\u805a\u8f6f\u4ef6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u63d0\u4f9b\u65e0\u9650\u91cf\u7684\u7f8e\u98df\u5c0f\u5403'],
+	 'salary': [u'16k-20k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/55163.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u6c38\u742a\u7f8e\u5bb9\u7f8e\u53d1'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u65b0\u6210\u7acb\u7684\u90e8\u95e8,\u63d0\u4f9b\u4e30\u539a\u85aa\u8d44\u66f4\u591a\u673a\u4f1a'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/58701.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u9f50\u4e66\u4e91\u534f\u4f5c'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6ca1\u6709KPI, \u6c14\u6c1b\u8f7b\u677e\uff0c\u6781\u5ba2\u8303\u513f'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/57154.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u5403\u5565'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u5de5\u7a0b\u5e08\u6587\u5316 \u5e74\u8f7b\u56e2\u961f \u671f\u6743\u5956\u52b1 \u7ba1\u996d\u7ba1\u4f4f\u5bbf'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/48553.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u5321\u6cf0\u79d1\u6280 (Qua', u'a', u'...'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1\u5e74\u4ee5\u4e0b'],
+	 'founder': [],
+	 'job_fields': [u'\u786c\u4ef6'],
+	 'occupation_temptation': [u'\u63d0\u5347\u5947\u624d~~'],
+	 'salary': [u'6k-11k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/28874.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u6570\u805a\u8f6f\u4ef6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u63d0\u4f9b\u65e0\u9650\u91cf\u7684\u7f8e\u98df\u5c0f\u5403'],
+	 'salary': [u'15k-21k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/55163.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u8d5b\u4e3a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u5176\u4ed6'],
+	 'occupation_temptation': [u'\u5e74\u5047\u30015\u96691\u91d1\u3001\u53ef\u4ee5\u5e26\u5bb6\u5c5e\u7684\u8865\u5145\u533b\u7597\u4fdd\u9669'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/72371.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'65Gr', u'u'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u90b5\u598d\u598d'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'B\u8f6e\u7a33\u5b9a\uff0c\u53d1\u5c55\u524d\u666f\u597d\uff0c\u85aa\u8d44\u798f\u5229\u9ad8\uff0c\u59b9\u7eb8\u7f8e'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/30843.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u840c\u901a\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u793e\u4ea4\u7f51\u7edc'],
+	 'occupation_temptation': [u'\u5e74\u5e95\u5956\u91d1\uff0c\u514d\u8d39\u65c5\u6e38\uff0c\u4e94\u9669\u4e00\u91d1'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/29333.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u6885\u9ad8\u5927\u6570\u636e'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1\u3001\u5e26\u85aa\u5e74\u5047'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/50151.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u666e\u6797\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u9879\u76ee\u5956\u91d1+\u5f39\u6027\u5de5\u4f5c+\u8282\u65e5\u798f\u5229+\u5404\u79cd\u5947\u8469\u798f\u5229'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/54374.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'Seedli', u'k'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u56fd\u9645\u5316\u7684\u521b\u4e1a\u56e2\u961f, \u7845\u8c37\u7cbe\u795e'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42031.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u56e2\u961f \u53d1\u5c55\u7a7a\u95f4\u5927 \u516c\u53f8\u524d\u666f\u597d'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u5bbf\u6734'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' Redy'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u4eba\u5bb6\u90fd\u8bf4\u5f00\u53d1\u4e0d\u51fa\u6765\u7684\u73a9\u610f\u513f'],
+	 'salary': [u'8k-9k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/49994.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'Ce', u'e', u'ek'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f20\u6dfc'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u56db\u91d1 \u5e74\u5e95\u53cc\u85aa \u5e26\u85aa\u5e74\u5047 \u52a0\u73ed\u8865\u52a9'],
+	 'salary': [u'4k-7k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/68685.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u4e50\u6d3b'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u5c1a\u7267\u6728'],
+	 'job_fields': [u'\u793e\u4ea4\u7f51\u7edc'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1\u5f39\u6027\u4e0a\u73ed\u7acb\u5373\u4e0a\u5c97\u4ea4\u901a\u4fbf\u5229'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/46401.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=13>
+	{'company': [u'\u6b66\u6c49\u7f8e\u627f'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u738b\u4e49\u5175'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u96c6\u56e2\u516c\u53f8\uff0c\u5e73\u53f0\u5927\uff0c\u53d1\u5c55\u597d\uff0c\u85aa\u8d44\u4f73'],
+	 'salary': [u'12k-24k'],
+	 'scale': [u'500-2000\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/37758.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u6e05\u6e90\u5927\u6570\u636e'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u53d1\u5c55\u597d\uff0c\u7a7a\u95f4\u5927'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/57577.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u905b\u905b'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u793e\u4ea4\u7f51\u7edc'],
+	 'occupation_temptation': [u'\u671f\u6743\u673a\u5236 \u6241\u5e73\u7ba1\u7406 \u76f4\u63a5\u96b6\u5c5eCEO'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/22206.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u534e\u80dc\u5929\u6210'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5415\u6d77\u86df'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u5e95\u53cc\u85aa\u3001\u5f39\u6027\u5de5\u4f5c\u4e0d\u6253\u5361\u3001\u6709\u6280\u672f\u5927\u725b'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/67336.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u4e91\u89c6\u94fe [wa', u'v.m...'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u91d1\u8bc1\u6d4e\u82cd'],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u5168\u6d66\u6c5f\u666f 4k\u663e\u793a\u5668 10\u70b9\u4e0a\u73ed \u6f02\u4eae\u89c6\u9891\u59b9\u5b50'],
+	 'salary': [u'18k-25k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/52315.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u62c5\u8def\u7f51'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5305\u96ea\u5b81'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u8f7b\u56e2\u961f   \u534a\u5e74\u8c03\u85aa'],
+	 'salary': [u'5k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/30169.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'ers'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u8f7b\u677e\u7684\u5de5\u4f5c\u6c1b\u56f4\u3001\u4e92\u8054\u7f51\u9886\u57df\u7684\u6210\u5c31\u611f'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/24102.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u5916\u5356\u8d85\u4eba'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [u' Lucas Englehardt'],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5fb7\u8d44\u80cc\u666f\u4e92\u8054\u7f51\u4f01\u4e1a\uff0cO2O\u5916\u5356\u7b2c\u4e00\u9635\u8425'],
+	 'salary': [u'30k-50k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/42.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u4e24\u9c9c'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5404\u79cd\u798f\u5229\uff0c\u5404\u79cd\u6c34\u679c\uff0c\u5404\u7c7b\u7f8e\u5973\u5e05\u54e5'],
+	 'salary': [u'14k-28k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/61545.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u4e16\u6615\u8f6f\u4ef6'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u6731\u4e16\u6615'],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u786c\u4ef6'],
+	 'occupation_temptation': [u'\u7ee9\u6548\u5956\u91d1\uff0c\u4e13\u4e1a\u57f9\u8bad\uff0c\u5458\u5de5\u65c5\u6e38\uff0c\u5e26\u85aa\u5e74\u5047'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/54819.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u6d77\u540c\u79d1\u6280'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51 ,\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u516c\u53f8\u89c4\u6a21\u5927\uff0c\u85aa\u8d44\u798f\u5229\u597d\uff0c\u957f\u671f\u7a33\u5b9a\u53d1\u5c55\u3002'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/24895.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'\u4e1c\u8f6f'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u533b\u7597\u5065\u5eb7,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'pm\u8def\u5f84 \u5168\u7403\u77e5\u540d\u901a\u8baf\u82af\u7247\u5382\u5546\u5927\u725b\u4e00\u8d77\u529e\u516c'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u4e0a\u5e02\u516c\u53f8'],
+	 'url': [u'http://www.lagou.com/gongsi/9015.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'ers'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 5-10\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u8f7b\u677e\u7684\u5de5\u4f5c\u6c1b\u56f4\u3001\u4e92\u8054\u7f51\u9886\u57df\u7684\u6210\u5c31\u611f'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/24102.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=11>
+	{'company': [u'i', u'alki'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u7535\u5b50\u5546\u52a1,\u6559\u80b2'],
+	 'occupation_temptation': [u'\u56fd\u9645\u56e2\u961f \u5458\u5de5\u671f\u6743 \u514d\u8d39\u5b66\u5916\u8bed'],
+	 'salary': [u'8k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/27024.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'S', u'ARK'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u80e1\u6d77\u5cf0'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u671f\u6743\u30018\u7c73loft\u6311\u7a7a\u529e\u516c\u3001\u5b8c\u5584\u7684\u5458\u5de5\u798f\u5229'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/43683.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u5fae\u5cb8\u4f20\u5a92'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u80e1\u6d77\u5cf0'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u671f\u6743\u30018\u7c73loft\u6311\u7a7a\u529e\u516c\u3001\u53ef\u4ee5\u5e26\u5ba0\u7269\u4e0a\u73ed'],
+	 'salary': [u'12k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/26305.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'FreeBuf\u9ed1\u5ba2\u4e0e\u6781\u5ba2'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8881\u52b2\u677e'],
+	 'job_fields': [u'\u4fe1\u606f\u5b89\u5168'],
+	 'occupation_temptation': [u'\u4f18\u79c0\u5458\u5de5\u671f\u6743\u6fc0\u52b1\u8ba1\u5212'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/33219.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u63a2\u70b9\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,O2O'],
+	 'occupation_temptation': [u'\u826f\u597d\u7684\u53d1\u5c55\u524d\u666f'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/574.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=10>
+	{'company': [u'\u523b\u901a\u4e91'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u53d1\u5c55\u7a7a\u95f4\u5927\uff0c\u5e26\u85aa\u5e74\u5047\uff0c\u8282\u65e5\u793c\u7269\uff0c\u4e94\u9669\u4e8c\u91d1'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/39016.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u4e92\u4f17\u5e7f\u544a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Eric Tan'],
+	 'job_fields': [u'\u5e7f\u544a\u8425\u9500,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u5b63\u5ea6\u5956\u91d1 \u56e2\u961f\u6d3b\u8dc3'],
+	 'salary': [u'15k-20k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/3162.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u5947\u6b63'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u91d1\u878d,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5c0f\u4f17\u8bed\u8a00\u5f00\u53d1\u8005\u7684\u798f\u97f3'],
+	 'salary': [u'5k\u4ee5\u4e0a'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/62010.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u89e6\u5b9d\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' Michael Wong'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5929\u53f0\u8db3\u7403\u573a\u3001\u514d\u8d39\u6309\u6469\u3001\u514d\u8d39\u65e9\u9910\u6c34\u679c\u70b9\u5fc3'],
+	 'salary': [u'13k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/7030.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u840c\u901a\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u793e\u4ea4\u7f51\u7edc'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1\uff0c\u514d\u8d39\u65c5\u6e38\uff0c\u9879\u76ee\u5956\u91d1'],
+	 'salary': [u'12k-18k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/29333.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u5609\u503c'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u5927\u6570\u636e\u4f01\u4e1a \u5e74\u5e95\u4e0a\u65b0\u4e09\u677f'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/47172.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=9>
+	{'company': [u'\u5403\u5565'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u7ba1\u996d\u7ba1\u4f4f\u5bbf \u671f\u6743\u5956\u52b1'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/48553.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u997f\u4e86\u4e48'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f20\u65ed\u8c6a'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u6311\u6218\u997f\u4e86\u4e48\u8fd9\u4e9bleader\u5427\uff0c\u4f60\u7edd\u5bf9\u6709\u6536\u83b7'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/51480.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u4e0a\u6d77\u968f\u4e91'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u8212\u5148\u751f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u53d1\u5c55\u524d\u666f\u597d \u5f39\u6027\u5de5\u4f5c\u5236 \u4eba\u6027\u5316\u7ba1\u7406'],
+	 'salary': [u'5k-8k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/59870.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'i', u'efei'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u5e26\u85aa\u5e74\u5047\u3001\u7ee9\u6548\u5956\u91d1\u3001\u5348\u9910\u8865\u52a9\u3001\u514d\u8d39\u73ed\u8f66'],
+	 'salary': [u'6k-12k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/9819.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=8>
+	{'company': [u'\u5982\u9e7f\u7f51\u7edc'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u675c\u777f'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u751f\u6d3b\u670d\u52a1'],
+	 'occupation_temptation': [u'\u80a1\u7968\u671f\u6743\uff0c\u6210\u4e3a\u9ad8\u7ba1\u540eL1\u5916\u6d3e\u5230\u7f8e\u56fd\u62ff\u7eff\u5361'],
+	 'salary': [u'15k-30k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/67074.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u4e0a\u6d77\u80dc\u65e5'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1\u5e74\u4ee5\u4e0b'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u7ade\u4e89\u529b\u85aa\u916c\u5f85\u9047\u4eba\u6027\u5316\u7ba1\u7406\u5236\u5ea6\u8f7b\u677e\u5de5\u4f5c\u6c1b\u56f4'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/10829.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u767e\u8d22\u8f66\u8d37'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' \u5434\u8d24\u541b'],
+	 'job_fields': [u'\u91d1\u878d'],
+	 'occupation_temptation': [u'\u5de5\u4f5c\u6c1b\u56f4\u8f7b\u677e\u6d3b\u6cfc'],
+	 'salary': [u'6k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/64779.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u672a\u6728\u7f51\u7edc'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'O2O,\u6559\u80b2'],
+	 'occupation_temptation': [u'\u8be5\u6709\u7684\u90fd\u6709\uff0c\u4e0d\u8be5\u6709\u7684\u4e5f\u53ef\u4ee5\u6709'],
+	 'salary': [u'7k-14k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/53508.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u89e6\u5b9d\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' Michael Wong'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u798f\u5229\u597d \u5f85\u9047\u597d'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/7030.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=7>
+	{'company': [u'\u638c\u548c\u79d1\u6280'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u674e\u98de\u6797'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u521b\u4e1a\u6c1b\u56f4/\u4e0d\u91cd\u5b66\u5386/\u552f\u624d\u662f\u4e3e'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/37700.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u997f\u4e86\u4e48'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f20\u65ed\u8c6a'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u66b4\u8d70\u7684HR\uff0c\u7ed9\u6211\u7b80\u5386\uff0c\u4e00\u8d77\u6311\u6218\u9762\u8bd5\u5b98'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/51480.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u4e92\u4f17\u5e7f\u544a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' Eric Tan'],
+	 'job_fields': [u'\u5e7f\u544a\u8425\u9500,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u5b63\u5ea6\u5956\u91d1 \u664b\u5347\u7a7a\u95f4\u5927'],
+	 'salary': [u'15k\u4ee5\u4e0a'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/3162.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u5ba2\u805a'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1'],
+	 'salary': [u'8k-10k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/15743.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u7231\u5947\u827a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u9f9a\u5b87'],
+	 'job_fields': [u'\u5e7f\u544a\u8425\u9500,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u798f\u5229\u8865\u8d34\uff0c\u7ee9\u6548\u8003\u6838\uff0c\u5546\u4e1a\u4fdd\u9669\u7b49'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'2000\u4eba\u4ee5\u4e0a'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/1686.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'\u6570\u5e93(\u4e0a\u6d77)\u79d1\u6280\u6709\u9650\u516c\u53f8'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u91d1\u878d'],
+	 'occupation_temptation': [u'\u4e94\u9669\u4e00\u91d1 \u5f39\u6027\u65f6\u95f4'],
+	 'salary': [u'8k-12k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/7656.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=6>
+	{'company': [u'RESS'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' \u4e0d\u9650'],
+	 'founder': [u' laocan'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6587\u5316\u5a31\u4e50'],
+	 'occupation_temptation': [u'\u6280\u672f\u524d\u6cbf\uff0c\u6781\u5ba2\u6c1b\u56f4\uff0c\u81ea\u7531\u6241\u5e73\uff0c\u9ad8\u85aa\u798f\u5229'],
+	 'salary': [u'12k-20k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/65625.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u4e0a\u6d77\u98ce\u5bfb\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u5f90\u78ca'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'5\u96691\u91d1 \u798f\u5229 \u8865\u5145\u533b\u7597 \u5e74\u5ea6\u4f53\u68c0'],
+	 'salary': [u'14k-16k'],
+	 'scale': [u'50-150\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/51677.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u57fa\u7840\u8f6f\u4ef6\u7814\u7a76\u4e2d\u5fc3'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e2d\u79d1\u9662\u63a7\u80a1\uff0c\u9ad8\u5b66\u5386\u9ad8\u6280\u80fd\u4e91\u96c6\uff0c\u56fd\u5bb6\u9879\u76ee'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/56261.html']}
+2015-05-29 11:31:07+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=5>
+	{'company': [u'\u8fc8\u5916\u8fea'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u5f20\u7a0b'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u4e2d\u56fd\u6700\u5927\u5546\u4e1aWi-Fi\uff0c\u5efa\u8bbe\u79fb\u52a8\u4e92\u8054\u7f51\u65b0\u751f\u6001'],
+	 'salary': [u'9k-18k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(C\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/1638.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=4>
+	{'company': [u'\u4e2d\u79d1\u9662\u901a\u7528\u82af\u7247\u57fa\u7840\u8f6f\u4ef6\u7814\u7a76\u4e2d\u5fc3'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1,\u6570\u636e\u670d\u52a1'],
+	 'occupation_temptation': [u'\u4e2d\u79d1\u9662\u63a7\u80a1\uff0c\u9ad8\u5b66\u5386\u9ad8\u6280\u80fd\u4e91\u96c6\uff0c\u56fd\u5bb6\u7ea7\u9879\u76ee'],
+	 'salary': [u'10k-14k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(\u4e0d\u9700\u8981\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/21423.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'\u4e00\u8d77\u5531'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 3-5\u5e74'],
+	 'founder': [u' \u5c39\u6851'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,O2O'],
+	 'occupation_temptation': [u'\u81ea\u7531\u6109\u60a6\u7684\u5de5\u4f5c\u73af\u5883'],
+	 'salary': [u'15k-25k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(B\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/877.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=3>
+	{'company': [u'A', u're', u'a'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' Ajoy Bose'],
+	 'job_fields': [u'\u4f01\u4e1a\u670d\u52a1'],
+	 'occupation_temptation': [u'\u6709\u94b1\uff08\u4f18\u539a\u85aa\u8d44\u798f\u5229\uff09\u4e5f\u6709\u95f2\uff08\u5f39\u6027\u81ea\u7531\uff09'],
+	 'salary': [u'15k-20k'],
+	 'scale': [u'150-500\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/26190.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u6781\u4e49'],
+	 'education': [u'\u4e0d\u9650'],
+	 'experience': [u' \u5e94\u5c4a\u6bd5\u4e1a\u751f'],
+	 'founder': [],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u5438\u5f15\u4f60\u7684\u4e0d\u662f\u6211\u4eec\uff0c\u800c\u662f\u4e00\u9897\u5b66\u4ee3\u7801\u7684\u5fc3'],
+	 'salary': [u'3k-6k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u672a\u878d\u8d44)'],
+	 'url': [u'http://www.lagou.com/gongsi/55199.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u9017\u73a9\u79d1\u6280'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u772d\u9510'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u9ad8\u85aa\uff1b\u6c1b\u56f4\u597d\uff1b\u4eba\u6027\u5316\u7ba1\u7406'],
+	 'salary': [u'10k-20k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u719f\u578b(D\u8f6e\u53ca\u4ee5\u4e0a)'],
+	 'url': [u'http://www.lagou.com/gongsi/29383.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=2>
+	{'company': [u'\u5320\u4e34'],
+	 'education': [u'\u672c\u79d1'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u738b\u5609\u7199'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51'],
+	 'occupation_temptation': [u'\u80a1\u7968\u671f\u6743 \u7f8e\u5973\u8d85\u591a \u5956\u91d1 \u96f6\u98df\u6c34\u679c'],
+	 'salary': [u'8k-16k'],
+	 'scale': [u'\u5c11\u4e8e15\u4eba'],
+	 'stage': [u'\u521d\u521b\u578b(\u5929\u4f7f\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/48586.html']}
+2015-05-29 11:31:08+0800 [lagou] DEBUG: Scraped from <200 http://www.lagou.com/jobs/list_Python?kd=Python&spc=1&pl=&gj=&xl=&yx=&gx=&st=&labelWords=&lc=&workAddress=&city=%E4%B8%8A%E6%B5%B7&requestId=&pn=12>
+	{'company': [u'\u78d0\u62d3\u6237\u5916'],
+	 'education': [u'\u5927\u4e13'],
+	 'experience': [u' 1-3\u5e74'],
+	 'founder': [u' \u6f58\u6500'],
+	 'job_fields': [u'\u79fb\u52a8\u4e92\u8054\u7f51,\u7535\u5b50\u5546\u52a1'],
+	 'occupation_temptation': [u'\u5e74\u5e95\u53cc\u85aa/\u5f39\u6027\u5de5\u4f5c/\u4f53\u9a8c\u6237\u5916/\u5e7f\u9614\u5e73\u53f0'],
+	 'salary': [u'10k-15k'],
+	 'scale': [u'15-50\u4eba'],
+	 'stage': [u'\u6210\u957f\u578b(A\u8f6e)'],
+	 'url': [u'http://www.lagou.com/gongsi/50257.html']}
+2015-05-29 11:31:08+0800 [lagou] INFO: Closing spider (finished)
+2015-05-29 11:31:08+0800 [lagou] INFO: Dumping Scrapy stats:
+	{'downloader/response_bytes': 1106298,
+	 'downloader/response_count': 14,
+	 'downloader/response_status_count/200': 14,
+	 'dupefilter/filtered': 169,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 5, 29, 3, 31, 8, 68054),
+	 'item_scraped_count': 200,
+	 'log_count/DEBUG': 217,
+	 'log_count/INFO': 63,
+	 'request_depth_max': 2,
+	 'response_received_count': 14,
+	 'scheduler/dequeued': 14,
+	 'scheduler/dequeued/memory': 14,
+	 'scheduler/enqueued': 14,
+	 'scheduler/enqueued/memory': 14,
+	 'start_time': datetime.datetime(2015, 5, 29, 3, 30, 22, 954213)}
+2015-05-29 11:31:08+0800 [lagou] INFO: Spider closed (finished)

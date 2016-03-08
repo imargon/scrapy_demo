@@ -1,0 +1,31 @@
+python setup.py install
+
+--使用pip一次升级所有安装的Python包
+import pip
+from subprocess import call
+
+for dist in pip.get_installed_distributions():
+    call("pip install --upgrade " + dist.project_name, shell=True)
+
+pip install --upgrade twisted pypiwin32
+
+scrapy startproject douban
+
+scrapy crawl dmoz -o items.json -t json  
+
+pip list --outdated 列出所有过期的包
+pip install -upgrade xxxx 来升级包xxxx
+
+scrapy -h #查看帮助  
+scrapy list #爬虫列表  
+scrapy crawl dmoz #运行dmoz爬虫  
+scrapy genspider -h #查看genspider帮助信息  
+scrapy genspider -l  #查看genspider模板列表  
+scrapy genspider -d basic # 查看basic模板结构  
+scrapy genspider -t basic test test.com # 指定basic模板生成test爬虫 
+
+scrapy crawl 爬虫名--logfile=日志名.log
+上面这一句就是将控制台中输出的信息存储到日志文件中
+
+scrapy crawl 爬虫名--logfile=日志名.log -o 输出文件名.json -t json
+Scrapy会把解析后返回的item序列化为json格式并保存在test.json文件中

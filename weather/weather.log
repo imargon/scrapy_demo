@@ -1,0 +1,6 @@
+2016-02-18 10:39:04 [scrapy] INFO: Scrapy 1.0.4 started (bot: weather)
+2016-02-18 10:39:04 [scrapy] INFO: Optional features available: ssl, http11
+2016-02-18 10:39:04 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'weather.spiders', 'FEED_URI': 'wea.json', 'SPIDER_MODULES': ['weather.spiders'], 'BOT_NAME': 'weather', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2638.0 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'weather.log', 'DOWNLOAD_DELAY': 1}
+2016-02-18 10:39:05 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-02-18 10:39:05 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-02-18 10:39:05 [twisted] CRITICAL: 
