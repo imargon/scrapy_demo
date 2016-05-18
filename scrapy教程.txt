@@ -1,6 +1,6 @@
 python setup.py install
 
---Ê¹ÓÃpipÒ»´ÎÉı¼¶ËùÓĞ°²×°µÄPython°ü
+--ä½¿ç”¨pipä¸€æ¬¡å‡çº§æ‰€æœ‰å®‰è£…çš„PythonåŒ…
 import pip
 from subprocess import call
 
@@ -13,19 +13,22 @@ scrapy startproject douban
 
 scrapy crawl dmoz -o items.json -t json  
 
-pip list --outdated ÁĞ³öËùÓĞ¹ıÆÚµÄ°ü
-pip install -upgrade xxxx À´Éı¼¶°üxxxx
+pip list --outdated åˆ—å‡ºæ‰€æœ‰è¿‡æœŸçš„åŒ…
+pip install -upgrade xxxx æ¥å‡çº§åŒ…xxxx
+pip install --upgrade twisted pypiwin32
+pip install --upgrade twisted[windows_platform]
 
-scrapy -h #²é¿´°ïÖú  
-scrapy list #ÅÀ³æÁĞ±í  
-scrapy crawl dmoz #ÔËĞĞdmozÅÀ³æ  
-scrapy genspider -h #²é¿´genspider°ïÖúĞÅÏ¢  
-scrapy genspider -l  #²é¿´genspiderÄ£°åÁĞ±í  
-scrapy genspider -d basic # ²é¿´basicÄ£°å½á¹¹  
-scrapy genspider -t basic test test.com # Ö¸¶¨basicÄ£°åÉú³ÉtestÅÀ³æ 
+scrapy -h #æŸ¥çœ‹å¸®åŠ©  
+scrapy list #çˆ¬è™«åˆ—è¡¨  
+scrapy crawl dmoz #è¿è¡Œdmozçˆ¬è™«  
+scrapy genspider -h #æŸ¥çœ‹genspiderå¸®åŠ©ä¿¡æ¯  
+scrapy genspider -l  #æŸ¥çœ‹genspideræ¨¡æ¿åˆ—è¡¨  
+scrapy genspider -d basic # æŸ¥çœ‹basicæ¨¡æ¿ç»“æ„  
+scrapy genspider -t basic test test.com # æŒ‡å®šbasicæ¨¡æ¿ç”Ÿæˆtestçˆ¬è™« 
 
-scrapy crawl ÅÀ³æÃû--logfile=ÈÕÖ¾Ãû.log
-ÉÏÃæÕâÒ»¾ä¾ÍÊÇ½«¿ØÖÆÌ¨ÖĞÊä³öµÄĞÅÏ¢´æ´¢µ½ÈÕÖ¾ÎÄ¼şÖĞ
+scrapy crawl çˆ¬è™«å--logfile=æ—¥å¿—å.log
+ä¸Šé¢è¿™ä¸€å¥å°±æ˜¯å°†æ§åˆ¶å°ä¸­è¾“å‡ºçš„ä¿¡æ¯å­˜å‚¨åˆ°æ—¥å¿—æ–‡ä»¶ä¸­
 
-scrapy crawl ÅÀ³æÃû--logfile=ÈÕÖ¾Ãû.log -o Êä³öÎÄ¼şÃû.json -t json
-Scrapy»á°Ñ½âÎöºó·µ»ØµÄitemĞòÁĞ»¯Îªjson¸ñÊ½²¢±£´æÔÚtest.jsonÎÄ¼şÖĞ
+scrapy crawl çˆ¬è™«å--logfile=æ—¥å¿—å.log -o è¾“å‡ºæ–‡ä»¶å.json -t json
+Scrapyä¼šæŠŠè§£æåè¿”å›çš„itemåºåˆ—åŒ–ä¸ºjsonæ ¼å¼å¹¶ä¿å­˜åœ¨test.jsonæ–‡ä»¶ä¸­
+
