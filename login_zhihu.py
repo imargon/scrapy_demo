@@ -31,8 +31,8 @@ response = session.get(url=host_url, headers=headers)
 def zhihu_login(email, passwd):
     login_data = {
             '_xsrf': response.cookies['_xsrf'],
-            'email': 'skypz666@gmail.com',
-            'password': 'zhenhappy123',
+            'email': '000@gmail.com',
+            'password': '0000',
             'remember_me': 'true'
     }
 
