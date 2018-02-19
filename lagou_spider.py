@@ -2,8 +2,8 @@
 """
 # pan.baidu.com/s/1hs0mXDi--+--：xaag
 """
-http://185.38.13.159//mp43/254044.
-mp4?st=QL4suvr8wYLJHtlK7hqfxw&e=1519120247
+##http://185.38.13.159//mp43/254044.###
+##mp4?st=QL4suvr8wYLJHtlK7hqfxw&e=1519120247
 
 
 from __future__ import unicode_literals
